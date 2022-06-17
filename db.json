@@ -1,0 +1,41 @@
+{
+  "Users": [
+    {
+      "first_name": "Sufiya",
+      "last_name": "Nadaf",
+      "username": "sufiya",
+      "password": "sxnksk/aC",
+      "gender": "female",
+      "id": 1
+    },
+    {
+      "first_name": "Sufiya",
+      "last_name": "Nadaf",
+      "username": "Sofiya",
+      "password": "iglu;g;u",
+      "gender": "female",
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "first_name": "Sufiya",
+      "last_name": "Nadaf",
+      "username": "skjbd;jbjas",
+      "password": "jkbk;sjadbjsa",
+      "gender": "female",
+      "id": 2
+    },
+    {
+      "id": 3
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

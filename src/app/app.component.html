@@ -1,0 +1,48 @@
+
+ <div id="box">
+    <h4 style="text-decoration: underline;">Registration Form</h4>
+    <form [formGroup]="myForm">
+        <label>Enter First name:</label>
+        <br>
+        <input type="text" formControlName="first_name" placeholder="Enter_Firstname">
+        <p *ngIf="first_name.touched && first_name.invalid" class="text-danger">
+            Enter Your First_name
+        </p>
+        <br><br>
+        <label>Enter Last name:</label>
+        <br>
+        <input type="text" formControlName="last_name" placeholder="Enter_Lastname">
+        <p *ngIf="last_name.touched && last_name.invalid">
+            Enter Your last_name
+        </p>
+        <br><br>
+        <label>Enter User name:</label>
+        <br>
+        <input type="text" formControlName="username" placeholder="Enter_username">
+        <p *ngIf="username.touched && username.invalid">
+            Enter Username
+        </p>
+        <br><br>
+        <label>Enter password:</label>
+        <br>
+        <input type="password" formControlName="password" placeholder="Enter_Password">
+        <p *ngIf="password.touched && password.invalid">
+            Enter Your password
+        </p>
+        <br><br>
+        <label>Enter Gender:</label>
+        <br>
+        <input id="input" type="radio" formControlName="gender" name="gender" value="male">
+        <label>Male</label>
+        <input id="input" type="radio" formControlName="gender" name="gender" value="female">
+        <label>Female</label>
+        <input id="input" type="radio" formControlName="gender" name="gender" value="other">
+        <label>Others</label>
+        <p *ngIf="gender.touched && gender.invalid">
+            Enter Your First_name
+        </p>
+        <br><br>
+        <button (click)="submit()">Submit</button>
+    </form>
+ </div>
+ <router-outlet></router-outlet>
