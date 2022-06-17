@@ -1,0 +1,24 @@
+#box{
+    width:400px;
+    height: 500px;
+    margin-left: 200px;
+    border: 2px solid black;
+    padding-left: 30px;
+    margin-top: 50px;
+    padding-top: 15px;
+}
+label{
+    font-size: 20px;
+    font-weight: 500;
+}
+input{
+    font-size: 15px;
+    width: 250px;
+    height: 25px;
+}
+input.touched{
+    border: 2px solid red;
+}
+#input{
+    width:45px;
+}
